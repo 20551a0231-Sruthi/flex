@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 50px;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+.leftnav{
+     padding-left: 30px;
+     font-style: italic;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.rightnav{
+   
+display: flex;
+align-items: center;
+gap: 50px;
+padding-right: 50px;
+color: rgb(196, 193, 193);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+font-size:medium;
+}
+h1{
+    font-weight: lighter;
+}
+.website1{
+    font-weight: bold;
+}
+.rightnav:hover{
+    color: gray;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 30px;
+    color: white;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.website{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.design{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+}
+.leftpart{
+    margin: 10px;
+    padding: 50px;
+    margin-top: 150px;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+    padding-top: 20px;
+    animation: move 5s 0.5s infinite ;
+}
+@keyframes move {
+    from{
+        transform: translate(0,50px);
+    }
+    to{
+        transform: translate(0,0px);
+    }
+
+}
+.paragraph{
+    padding-right: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    line-height: 25px;
+}
+.button{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    font-size:larger;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="leftnav">
+            <h1>YOUR <span class="website1">WEBSITE</span></h1>
+        </div>
+        <div class="rightnav">
+           <h3>Home</h3> 
+           <h3>About Us</h3>
+           <h3>Work</h3>
+           <h3>Info</h3>
+           <h3 class="btn">Get Started</h3>
+        </div>
+    </div>
+    <div class="part2">
+        <div class="leftpart">
+          <span class="website">Website</span><br>
+          <span class="design">Design</span>
+<br>
+<br>
+          <div class="paragraph">
+          <span>Lorem ipsum dolar sit amet,consectetur</span><br>
+          <span>adipiscing elit.Sed eget libero feugiat, fabucibus</span><br>
+          <span>libero id, scelerisque quam</span><br>
+        </div>
+<br>
+         <div class="button">
+            Button Name
+         </div>
+       </div>
+        <img src="./image.jpg">
+    </div>
+</body>
+</html>
